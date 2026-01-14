@@ -1,0 +1,24 @@
+# .gitignore の中身
+
+# 仮想環境
+.venv/
+env/
+venv/
+
+# Pythonのキャッシュ
+__pycache__/
+*.py[cod]
+
+# OSのシステムファイル
+.DS_Store
+Thumbs.db
+
+# IDEの設定（VS Codeなど）
+.vscode/
+.idea/
+
+# データファイル（必要に応じて追加）
+# *.pkl
+# data/
+output/
+mujoco_menagerie/
